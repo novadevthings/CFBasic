@@ -10,16 +10,17 @@ A recreation of Commodore 128 BASIC written in C for modern systems (Linux, macO
   - Full-screen cursor movement via arrow keys.
   - **Logical Line Picking**: Move the cursor to any line of text and press **ENTER** to execute it immediately.
   - Integrated virtual screen buffer for classic terminal interaction.
-- **C64 Memory Compatibility**:
+- **C64 Memory Compatibility***:
   - Emulated **64KB RAM** system.
   - Full **`PEEK`** and **`POKE`** support for all 65,536 addresses.
   - **Screen RAM Mapping**: Writing to `1024-2023` directly updates the terminal display.
   - **Hardware Traps**: VIC-II register emulation for colors (`53280/53281`).
-- **Graphics Support**:
+- **Graphics Support***:
   - **`PLOT X, Y`** and **`DRAW X, Y`** for character-based line drawing.
   - Coordinates are scaled from standard C64 resolution (320x200) to your terminal window.
 - **Cross-Platform**: Runs on Linux, macOS, and Windows.
-- **Classic Interface**: Authentic Commodore 128 startup banner with human-readable memory statistics.
+<br><br>
+***Unfinished Feature**
 
 ## Building
 
