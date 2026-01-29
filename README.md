@@ -132,7 +132,7 @@ This installs `basic` to `/usr/local/bin`.
 
 ## License
 
-GNU General Public License v3.0 - See [LICENSE](LICENSE) file for details.
+MIT License - See [LICENSE](LICENSE) file for details.
 
 ## Author
 
